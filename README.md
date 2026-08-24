@@ -38,7 +38,14 @@ python3 -m http.server 8000
 
 ## Deployment
 
-Cloudflare Pages: connect this repo, set the production branch to `main`, no build command, output directory = repo root. Domain: `solynto.com` (og:url, og:image and sitemap already reference this domain).
+GitHub Pages (repo must be public):
+
+1. Repo settings → Pages → Source: Deploy from a branch → `main` / (root) → Save
+2. The `CNAME` file in this repo pins the custom domain `solynto.com`
+3. In Cloudflare DNS (solynto.com zone), add a CNAME: `solynto.com` → `boris-tang.github.io` (apex works via CNAME flattening)
+4. GitHub issues the HTTPS certificate automatically after domain verification
+
+`og:url`, `og:image` and `sitemap.xml` already reference `https://solynto.com/`.
 
 ## Notes
 
