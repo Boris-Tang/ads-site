@@ -1,0 +1,22 @@
+{
+  "disclosures": [
+    {
+      "identifier": "id",
+      "type": "cookie",
+      "maxAgeSeconds": 8640000,
+      "cookieRefresh": true,
+      "domains": ["*.gemix24.com"],
+      "purposes": [
+        1,
+        2,
+        7
+      ]
+    }
+  ],
+  "domains": [
+    {
+      "domain": "*.gemix24.com"
+    }
+  ],
+  "sdks": []
+}
