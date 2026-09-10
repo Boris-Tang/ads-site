@@ -12,6 +12,8 @@ Pure static HTML/CSS. No JavaScript, no build step, no cookies, no third-party a
 |---|---|
 | `index.html` | Main single-page site: hero, platform, supply, agencies, white-label, CTA |
 | `about.html` | Company story and founder background |
+| `press/index.html` | Press release listing |
+| `press/tcf-vendor-registration.html` | Press release: TCF vendor registration |
 | `privacy.html` | Privacy policy (scoped to this website; the advertising platform is governed by separate client agreements) |
 | `terms.html` | Terms of use |
 
