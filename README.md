@@ -17,7 +17,7 @@ Pure static HTML/CSS. No JavaScript, no build step, no cookies, no third-party a
 | `privacy.html` | Privacy policy (scoped to this website; the advertising platform is governed by separate client agreements) |
 | `terms.html` | Terms of use |
 
-Supporting files: `style.css` (design system), `favicon.svg` (Target mark), `og-image.png` (1200×630 social share card), `sitemap.xml`, `robots.txt`.
+Supporting files: `style.css` (design system), `favicon.svg` (Target mark), `og-image.png` (1200×630 social share card), `sitemap.xml`, `robots.txt`. `brand/` holds upload-ready logo PNGs (lockup + mark, transparent, rendered via headless Chrome) for third-party directories such as the IAB Europe vendor list.
 
 ## Design system
 
