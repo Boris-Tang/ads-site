@@ -53,6 +53,6 @@ GitHub Pages (repo must be public):
 ## Notes
 
 - All CTAs are `mailto:` links to `info@solynto.com` with prefilled subjects.
-- The site intentionally uses no cookies or trackers; the privacy policy states this and scopes itself to the website only.
+- The site intentionally uses no cookies or trackers.
 - `og-image.png` was rendered from a 1200×630 HTML template via headless Chrome; keep it in sync with brand assets (logo mark, tagline).
 - Social platforms cache og data aggressively — finalize `og-image.png` before sharing links widely.
