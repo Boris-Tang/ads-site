@@ -4,7 +4,7 @@ Static marketing site for SOLYNTO — a premium Nordic programmatic advertising 
 
 ## Stack
 
-Pure static HTML/CSS. No JavaScript, no build step, no cookies, no third-party analytics. The directory deploys as-is.
+Pure static HTML/CSS. No JavaScript, no build step, no third-party analytics. The only cookie activity is the footer pixel (`relay.gemix24.com/px`), which sets SOLYNTO's own signed `id` cookie on `.gemix24.com` (disclosed via `deviceStorage.json`). The directory deploys as-is.
 
 ## Pages
 
@@ -53,6 +53,6 @@ GitHub Pages (repo must be public):
 ## Notes
 
 - All CTAs are `mailto:` links to `info@solynto.com` with prefilled subjects.
-- The site intentionally uses no cookies or trackers.
+- The site loads no third-party trackers; the footer pixel sets our own `id` cookie (see Stack).
 - `og-image.png` was rendered from a 1200×630 HTML template via headless Chrome; keep it in sync with brand assets (logo mark, tagline).
 - Social platforms cache og data aggressively — finalize `og-image.png` before sharing links widely.
